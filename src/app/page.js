@@ -396,47 +396,47 @@ export default function PitchDeck() {
             {/* Right: Visual Diagram */}
             <motion.div 
               variants={scaleIn}
-              className="glass-card p-12 flex items-center justify-center"
+              className="glass-card p-6 sm:p-8 lg:p-12 flex items-center justify-center overflow-x-auto"
             >
-              <div className="flex items-center gap-6 lg:gap-8">
+              <div className="flex items-center gap-2 sm:gap-4 lg:gap-8 min-w-fit">
                 
                 {/* Code Icon */}
                 <motion.div 
                   whileHover={{ scale: 1.1, rotate: 5 }}
-                  className="flex flex-col items-center gap-3"
+                  className="flex flex-col items-center gap-2 sm:gap-3"
                 >
-                  <div className="w-20 h-20 bg-gradient-to-br from-slate-600 to-slate-800 rounded-2xl flex items-center justify-center text-white shadow-xl shadow-slate-500/40">
-                    <Code2 className="w-10 h-10" />
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 lg:w-20 lg:h-20 bg-gradient-to-br from-slate-600 to-slate-800 rounded-xl lg:rounded-2xl flex items-center justify-center text-white shadow-xl shadow-slate-500/40">
+                    <Code2 className="w-6 h-6 sm:w-7 sm:h-7 lg:w-10 lg:h-10" />
                   </div>
-                  <span className="text-sm font-mono text-slate-600 font-semibold">Code</span>
+                  <span className="text-xs sm:text-sm font-mono text-slate-600 font-semibold">Code</span>
                 </motion.div>
                 
                 {/* Arrow */}
-                <ArrowRight className="w-8 h-8 text-blue-400 animate-pulse shrink-0" style={{ animationDuration: '2s' }} />
+                <ArrowRight className="w-4 h-4 sm:w-6 sm:h-6 lg:w-8 lg:h-8 text-blue-400 animate-pulse shrink-0" style={{ animationDuration: '2s' }} />
                 
                 {/* Strategy Icon */}
                 <motion.div 
                   whileHover={{ scale: 1.15, rotate: -5 }}
-                  className="flex flex-col items-center gap-3"
+                  className="flex flex-col items-center gap-2 sm:gap-3"
                 >
-                  <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-700 rounded-2xl flex items-center justify-center text-white shadow-xl shadow-blue-500/50">
-                    <Layers className="w-10 h-10" />
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 lg:w-20 lg:h-20 bg-gradient-to-br from-blue-500 to-blue-700 rounded-xl lg:rounded-2xl flex items-center justify-center text-white shadow-xl shadow-blue-500/50">
+                    <Layers className="w-6 h-6 sm:w-7 sm:h-7 lg:w-10 lg:h-10" />
                   </div>
-                  <span className="text-sm font-mono text-blue-700 font-bold">Strategy</span>
+                  <span className="text-xs sm:text-sm font-mono text-blue-700 font-bold">Strategy</span>
                 </motion.div>
                 
                 {/* Arrow */}
-                <ArrowRight className="w-8 h-8 text-green-400 animate-pulse shrink-0" style={{ animationDuration: '2s' }} />
+                <ArrowRight className="w-4 h-4 sm:w-6 sm:h-6 lg:w-8 lg:h-8 text-green-400 animate-pulse shrink-0" style={{ animationDuration: '2s' }} />
                 
                 {/* Profit Icon */}
                 <motion.div 
                   whileHover={{ scale: 1.1, rotate: 5 }}
-                  className="flex flex-col items-center gap-3"
+                  className="flex flex-col items-center gap-2 sm:gap-3"
                 >
-                  <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-700 rounded-2xl flex items-center justify-center text-white shadow-xl shadow-green-500/40">
-                    <TrendingUp className="w-10 h-10" />
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 lg:w-20 lg:h-20 bg-gradient-to-br from-green-500 to-green-700 rounded-2xl flex items-center justify-center text-white shadow-xl shadow-green-500/40">
+                    <TrendingUp className="w-6 h-6 sm:w-7 sm:h-7 lg:w-10 lg:h-10" />
                   </div>
-                  <span className="text-sm font-mono text-green-700 font-semibold">Profit</span>
+                  <span className="text-xs sm:text-sm font-mono text-green-700 font-semibold">Profit</span>
                 </motion.div>
               </div>
             </motion.div>
