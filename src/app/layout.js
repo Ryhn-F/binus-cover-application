@@ -15,7 +15,7 @@ export const metadata = {
   title: "Muhammad Rayhan Firdaus | Future Technopreneur",
   description: "Widya Scholarship Candidate 2025 - Award-Winning Fullstack Developer",
   icons: {
-    icon: "/binus.png",
+    icon: "/favicon.ico",
   },
 };
 
