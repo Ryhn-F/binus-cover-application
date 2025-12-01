@@ -14,6 +14,9 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata = {
   title: "Muhammad Rayhan Firdaus | Future Technopreneur",
   description: "Widya Scholarship Candidate 2025 - Award-Winning Fullstack Developer",
+  icons: {
+    icon: "/binus.png",
+  },
 };
 
 export default function RootLayout({ children }) {
